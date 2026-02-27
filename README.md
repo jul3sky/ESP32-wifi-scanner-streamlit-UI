@@ -13,23 +13,7 @@ The goal is not only to build a working tool, but also to teach:
 This repository is intentionally written for learners. Every step is explained.
 
 Project Architecture
-┌──────────────────────────────┐
-│          ESP32               │
-│  MicroPython Firmware         │
-│  - Scans WiFi networks        │
-│  - Formats results as JSON    │
-│  - Streams JSON over USB      │
-└──────────────┬───────────────┘
-               │ USB‑CDC Serial
-               ▼
-┌──────────────────────────────┐
-│        Streamlit App         │
-│  - Reads serial JSON stream  │
-│  - Parses JSON               │
-│  - Displays live table       │
-│  - PrettyTable + Streamlit   │
-└──────────────────────────────┘
-
+![Project architecture wireframe.](https://github.com/jul3sky/ESP32-wifi-scanner-streamlit-UI/blob/main/assets/Wireframe.jpg)
 
 The ESP32 acts as a sensor.
 The Streamlit app acts as a dashboard.
