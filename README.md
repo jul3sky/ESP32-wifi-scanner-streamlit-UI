@@ -1,3 +1,4 @@
+### REPO IS UNDER CONSTRUCTION
 # ESP32 WiFi Scanner — MicroPython + Streamlit Dashboard
 A complete beginner‑friendly and educational project for learning embedded systems, serial communication, and real‑time dashboards.
 
