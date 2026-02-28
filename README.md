@@ -15,7 +15,9 @@ This repository is intentionally written for learners. Every step is explained.
  ## PROJECT ARCHITECTURE
  ===========================================================================================
 
-![Project architecture wireframe.](https://github.com/jul3sky/ESP32-wifi-scanner-streamlit-UI/blob/main/assets/wifi-scanner-wireframe.jpg))
+![Project architecture wireframe.](https://github.com/jul3sky/ESP32-wifi-scanner-streamlit-UI/blob/main/assets/wifi-scanner-wireframe.jpg)
+
+Image created using Miro.
 
 The ESP32 acts as a sensor.
 The Streamlit app acts as a dashboard.
@@ -41,7 +43,7 @@ JSON is:
 - widely used in IoT dashboards
 
 
-📱 Streamlit Dashboard
+Streamlit Dashboard
 What the UI does
 - Opens the USB serial port
 - Reads JSON lines from the ESP32
