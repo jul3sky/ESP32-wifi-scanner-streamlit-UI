@@ -12,8 +12,10 @@ The goal is not only to build a working tool, but also to teach:
 - how to integrate hardware + firmware + software into one system
 This repository is intentionally written for learners. Every step is explained.
 
-Project Architecture
-![Project architecture wireframe.](https://github.com/jul3sky/ESP32-wifi-scanner-streamlit-UI/blob/main/assets/Wireframe.jpg)
+ ## PROJECT ARCHITECTURE
+ ===========================================================================================
+
+![Project architecture wireframe.](https://github.com/jul3sky/ESP32-wifi-scanner-streamlit-UI/blob/main/assets/wifi-scanner-wireframe.jpg))
 
 The ESP32 acts as a sensor.
 The Streamlit app acts as a dashboard.
