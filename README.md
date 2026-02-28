@@ -9,7 +9,8 @@ The goal is not only to build a working tool, but also to teach:
 - how microcontrollers communicate over USB
 - how to structure JSON data on embedded devices
 - how to build a reactive UI with Streamlit
-- how to integrate hardware + firmware + software into one system
+- how to integrate hardware + firmware + software into one system.
+  
 This repository is intentionally written for learners. Every step is explained.
 
  ## PROJECT ARCHITECTURE
