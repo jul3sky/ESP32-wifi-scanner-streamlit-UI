@@ -1,7 +1,6 @@
 # HOMEMADE BUTTON PROTOTYPE
 ## (Aluminium Thread + Hair Ties)
-====================================================================================
-
+=============================================================================================
 This project originally started before the hardware kit arrived, so a temporary button was built using:
 - aluminium thread
 - latex mini hair ties
