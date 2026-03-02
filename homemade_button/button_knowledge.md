@@ -1,5 +1,5 @@
 # TWO OPPOSITE WAYS TO WIRE A BUTTON
-===========================================================================================================
+=====================================================================================
 A button can be wired in two valid ways:
 
 1) Active‑low button (current setup)
@@ -17,7 +17,7 @@ This is the most common pattern on ESP32 and Arduino.
 This is the opposite logic.
 
 ## WHY MY OLDER CODE GAVE 1 WHEN PRESSED
-=============================================================================================================
+=====================================================================================
 In that older code, i did the following:
 
 - I used Pin.PULL_DOWN instead of Pin.PULL_UP
@@ -32,7 +32,7 @@ In that configuration:
 So the button logic flips depending on the wiring.
 
 ## WHY MY CURRENT CODE SHOWS "LOW" (0 = PRESSED)
-===========================================================================================================
+=====================================================================================
 The current line:
 `button = Pin(16, Pin.IN, Pin.PULL_UP)`
 forces the pin to be HIGH by default.
@@ -46,7 +46,7 @@ This is the standard ESP32 pattern because:
 That’s why most MicroPython examples use active‑low.
 
 ## HOW TO CHECK WHICH LOGIC A BUTTON USES
-==============================================================================================================
+========================================================================================
 Let's look at two things:
 Wiring:
 - GPIO → GND → active‑low
@@ -57,7 +57,7 @@ Code:
 Once those two are learned, the logic becomes predictable.
 
 ## A SIMPLE RULE TO REMEMBER
-===============================================================================================================
+=========================================================================================
 - PULL_UP → pressed = 0
 - PULL_DOWN → pressed = 1
 Everything else follows from that.
