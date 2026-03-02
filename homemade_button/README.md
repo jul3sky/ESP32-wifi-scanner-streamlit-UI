@@ -25,10 +25,13 @@ The ESP32 internal pull‑up resistor kept the pin HIGH when not pressed.
 ----------------------------------------------------------------------------------------
 ![Start of the project](https://github.com/jul3sky/ESP32-wifi-scanner-streamlit-UI/blob/main/homemade_button/assets/1772317847274.jpg)
 <sub>Preparation for work</sub>
+
 ![Pin attachment](https://github.com/jul3sky/ESP32-wifi-scanner-streamlit-UI/blob/main/homemade_button/assets/1772317850671.jpg)
 <sub>Pins are attached</sub>
+
 ![Button test](https://github.com/jul3sky/ESP32-wifi-scanner-streamlit-UI/blob/main/homemade_button/assets/1772317848012.jpg)
 <sub>Since there are names of the real wi-fi endpoints shown in scan results, i cropped them out</sub>
+
 ----------------------------------------------------------------------------------------
 **Why this matters**
 ----------------------------------------------------------------------------------------
