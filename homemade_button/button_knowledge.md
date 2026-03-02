@@ -1,5 +1,5 @@
 # TWO OPPOSITE WAYS TO WIRE A BUTTON
-=====================================================================================
+==========================================================================================
 A button can be wired in two valid ways:
 
 1) Active‑low button (current setup)
